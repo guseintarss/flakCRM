@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Мастер по ремонту техники">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1a24"/>
+      <stop offset="0.55" stop-color="#123b4d"/>
+      <stop offset="1" stop-color="#1d6f83"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e9f1f3"/>
+      <stop offset="1" stop-color="#b9ccd3"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <g opacity="0.16" stroke="#9fd7e4" stroke-width="2" fill="none">
+    <circle cx="1300" cy="210" r="240"/>
+    <circle cx="1300" cy="210" r="180"/>
+    <circle cx="1300" cy="210" r="120"/>
+    <path d="M0 720 400 420 760 720 1100 460 1600 780"/>
+  </g>
+  <g transform="translate(420 220)">
+    <rect width="460" height="520" rx="26" fill="url(#panel)"/>
+    <rect x="26" y="26" width="408" height="300" rx="16" fill="#20323a"/>
+    <circle cx="230" cy="176" r="112" fill="none" stroke="#3b5b66" stroke-width="10"/>
+    <circle cx="230" cy="176" r="78" fill="none" stroke="#4f7b89" stroke-width="6"/>
+    <g fill="#8fb7c2">
+      <rect x="60" y="370" width="64" height="64" rx="12"/>
+      <rect x="146" y="370" width="64" height="64" rx="12"/>
+      <rect x="232" y="370" width="64" height="64" rx="12"/>
+      <rect x="318" y="370" width="82" height="64" rx="12"/>
+    </g>
+    <g fill="#2a3f48">
+      <circle cx="92" cy="402" r="8"/>
+      <circle cx="178" cy="402" r="8"/>
+      <circle cx="264" cy="402" r="8"/>
+    </g>
+    <rect x="60" y="460" width="340" height="16" rx="8" fill="#93aeb7"/>
+  </g>
+  <g transform="translate(940 430)">
+    <circle cx="120" cy="120" r="120" fill="#f0b35b"/>
+    <circle cx="120" cy="120" r="86" fill="#153340"/>
+    <circle cx="120" cy="120" r="46" fill="#f0b35b"/>
+    <g fill="#d9e6ea">
+      <rect x="250" y="30" width="22" height="180" rx="8" transform="rotate(24 261 120)"/>
+      <rect x="286" y="52" width="22" height="150" rx="8" transform="rotate(24 297 127)"/>
+      <rect x="30" y="250" width="210" height="22" rx="10"/>
+      <rect x="30" y="292" width="150" height="22" rx="10"/>
+    </g>
+  </g>
+  <g opacity="0.5" fill="#bfe3ea">
+    <circle cx="120" cy="150" r="5"/>
+    <circle cx="260" cy="90" r="4"/>
+    <circle cx="1480" cy="620" r="6"/>
+    <circle cx="1380" cy="760" r="4"/>
+  </g>
+</svg>
